@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+[class*= "col-"]{
+    float:left;
+    padding:0;
+    margin:0;
+}
+
+html,body{
+    max-width: 100%;
+    overflow-x:hidden;
+}
+
+.container-fluid{
+    position:relative;
+    padding:0px !important;
+    margin:0px !important;
+}
+
+.container{
+    position: static;
+    margin-top: 100px;
+
+}
+
+.fila{
+    position:relative;
+    margin:auto;
+    width: 100%;
+    height: auto;
+    clear:both;
+    display:table;
+}
+
+body{overflow-x:hidden;}
+a:hover{text-decoration: none;} a{text-decoration: none;}
+
+
+.nav{
+    width: all;
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+.icono{
+    display:block;
+    margin:auto;
+}
+.iconopequeño{
+    width: 130px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    margin-top: 20px;
+    filter: opacity(.5);
+
+}
+.desaparecertigre{
+    position:relative;
+    width: 44%;
+    margin-left: 28%;
+    margin-top: -26%;
+    transition: all 2s;
+    margin-right: auto;
+    z-index:-100;
+}
+
+.aparecertigre{
+    position:relative;
+    margin-top: 0px;
+    transition: all 2s;
+    width: 44%;
+    margin-left: 28%;
+    margin-right: auto;
+    z-index:-100;
+}
+.barra{
+    position:relative;
+    background-color:gray;
+    width: 44%;
+    margin-left: 28%;
+    height: 10px;
+    z-index:-60;
+}
+.boton{
+    background-color:gray;
+    height: 30px;
+    width: 60px;
+    color:honeydew;
+    margin-top: -17px;
+    line-height:30px;
+    cursor: pointer;
+    width: 4%;
+    margin-left: 48%;
+    z-index:-80;
+}
+
+.señal{
+    text-align:center;
+
+}
+.contenedor{
+    position:relative;
+    width: 70%;
+    margin:auto;
+}
+.container{
+    margin-top: 50px;
+    position:relative;
+}
+
+.textouno{
+    text-align: justify;
+    border: solid 50px transparent;
+}
+
+.textodos{
+    text-align: justify;
+    border: solid 50px transparent;
+}
+
+.posicion{
+    position:relative
+}
+.textomodificado{
+    margin-top: 40px;
+    color:rgb(194, 194, 194);
+
+}
+
+.carousel .carousel-inner .item > img {
+    margin:auto;
+    height: 200px;
+  }
+  .carousel{
+    filter: opacity(.5);
+  }
+
+.contenidodefirmas{
+    position:relative;
+    background-image: url("./papel.jpg");
+    background-repeat: repeat;
+    filter: opacity(.7);
+    width: all;
+
+
+}
+.margen{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.firmas{
+    font-family: 'Indie Flower', cursive;
+    margin-top: 20px;
+}
+
+.segundalista{
+    text-align: justify;
+    border-left: solid 10px transparent;
+
+}
+.red{color:red}
+
+.botonera{
+    border:solid 10px transparent;
+}
